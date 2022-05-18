@@ -15,18 +15,22 @@
         <a href="../form.html">Cadastrar</a>
         <a href="../index.html">Listagem</a>
     </div>
-<section>
+
     <form class="formulario">
-       <div class="linha-formulario">
-        <label class="label-grande" for="name">Nome</label>
-        <input name="name" id="name" required type="text"/>
-    </div>
-        <label class="label-grande" for="phone">Telefone</label>
-        <input name="phone" id="phone" required type="text"/>
-    </div>
-    <div>
-        <label>Experiência Previa</label>
-        <div style="display:inline-block; width: 50%;">
+        <div class="linha-formulario">
+            <label class="label-grande" for="name">Nome</label>
+            <input name="name" id="name" required type="text"/>
+        </div>
+       
+        <div class="linha-formulario">
+            <label class="label-grande" for="phone">Telefone</label>
+            <input name="phone" id="phone" required type="text"/>
+        </div>
+       
+        <div class="linha-formulario xp-line" style="display: flex">
+            <label class="label-grande">Experiência Previa</label>
+
+        <div>
 
         <input type="radio" name="xp" id="xp-yes" /> 
         
@@ -34,15 +38,15 @@
             Sim
         </label>
     <br>
-        <input type="radio" name="xp" id="xp-no" /> <label for="xp-no">
+            <input type="radio" name="xp" id="xp-no" /> <label for="xp-no">
             Não
-        </label>
+                </label>
+            </div>
         </div>
-    </div>
     
         <input type="submit" value="Salvar"/>
     
     </form>
-</section>
+</div>
 </body>
 </html>
