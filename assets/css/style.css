@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .cabecalho {
     background: linear-gradient(45deg,
@@ -19,7 +20,6 @@ body{
     color: blue;
     margin-right: 7px;
     margin-left: 7px;
-    font-family: Arial, Helvetica, sans-serif;
     border: 1px solid blue;
     padding: 5px;
     margin-top: 10px;
