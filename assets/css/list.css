@@ -9,3 +9,7 @@ background-color: black;
 color: white;
 font-weight: bold;
 }
+
+.lista tr td {
+    padding: 5px;
+}
